@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Connor Brownlee</title>
+
+      <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="_grid.scss">
+        <link rel="stylesheet" type="text/css" href="unsemantic-grid-responsive.css">
+        <link rel="stylesheet" type="text/css" href="unsemantic-grid-responsive-tablet.css">
+        <link rel="stylesheet" type="text/css" href="Navbar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+  Formatted for readability
+    -->
+      <meta
+        name="viewport"
+        content="
+          width=device-width,
+          initial-scale=1,
+          minimum-scale=1,
+          maximum-scale=1"
+  </head>
+
+    <!--- Header with picture as background and text ontop--->
+
+<header>
+
+  <div class="grid-container">
+    <div class="grid-100 mobile-grid-100">     <!--- Creates a collums on PC and Mobile devices --->
+      <div class="header" role=”banner”>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-100 mobile-grid-100">
+      <div class="Header_Text" role=”banner”>
+        <h1>Connor Martin Brownlee</h1>
+        <h3>Football Coach and Digital Media Student</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="grid-container">
+    <div class="grid-40 mobile-grid-40">
+      <div class="Logo" role=”banner”>
+        <img src="Logo Background.png" alt="CB Digital Solution Logo">
+      </div>
+    </div>
+  </div>
+
+  </header>
+
+<body>
+  <!--- Navigation bar --->
+    <navigation>
+
+      <div class="grid-container">
+        <div class="grid-100">
+            <div class="topnav" role="navigation">
+              <ul>
+              <li><a href = "index.html">Home</a></li>
+              <li><a href = "MyCV.html">My CV</a></li>
+              <li><a href = "Project Page.html">Projects</a></li>
+              <li><a class = "active""Contact Me.html">Contact </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </navigation>
+
+
+<!--- Spacer to centralise the 2 paragraphs --->
+  <div class="grid-20 mobile-grid-100 tablet-grid-20">
+    <div class="Contacts">
+      <h4>My Contact Details</h4>
+      <a href="email:Connorbrownlee@sky.com">E:Connorbrownlee@sky.com</a> <br>
+      <a href="tel:0131 333 0523"link="blue">H:0131 333 0523</a> <br>
+      <a href="tel:07392 868655"link="blue">T:07392 868655</a>
+      <br>
+
+      <!--- Facebook,twitter and google link buttons --->
+      <a href="https://www.facebook.com/connor.TheBeaver.Brownlee" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/Beaver_CB51" class="fa fa-twitter"></a>
+      <a href="https://www.google.co.uk/" class="fa fa-google"></a>
+    </div>
+  </div>
+<!--- Spacer to centralise the 2 paragraphs --->
+
+  <div class="grid-container">
+    <div class="grid-66 mobile-grid-80 tablet-grid-80">
+      <div class="Forms">
+
+        <form action="Homepage.html">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="Full Name" placeholder="Your Name..">
+
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="Email" placeholder="Your Email..">
+
+
+          <label for="lname">Reason For Contact</label>
+          <input type="text" id="Reason" name="Reason For Contact" placeholder="What your reason of contact is..">
+
+
+          <label for="country">Country</label>
+            <select style="cursor:pointer" id="country" name="country">
+              <option value="Scotland">Scotland</option>
+              <option value="England">England</option>
+              <option value="Wales">Wales</option>
+              <option value="Ireland">Ireland</option>
+              <option value="Other">Other</option>
+            </select>
+
+          <input style="cursor:pointer" type="Submit" value="Submit">
+        </form>
+
+      </div>
+    </div>
+  </div>
+      <!--- Spacer to centralise the 2 paragraphs --->
+    <div class="grid-20 mobile-grid-0 tablet-grid-0">
+      <p></p>
+    </div>
+      <!--- Spacer to centralise the 2 paragraphs --->
+</body>
+
+</html>

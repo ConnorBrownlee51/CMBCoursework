@@ -1,0 +1,229 @@
+p {
+  color:#f2f2f2;
+  font-size: 90%;
+}
+
+h4{
+  color: #4CAF50;
+  font-size: 120%;
+  text-decoration: none;
+  border-bottom: 1px solid #4CAF50;
+}
+.MarginTop{
+  margin-top: -1%
+}
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  top: 10%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.Contacts{
+  margin-left: 10%;
+  padding-bottom: 5px;
+  line-height: 20px;
+  color: white;
+
+  word-wrap:break-word;
+}
+
+/*Link colour*/
+a:link {
+    color: white;
+}
+
+.Certificates{
+  font-size: 90%;
+  color: white;
+}
+
+/*Makes titles i want bigger and correct colour*/
+.BoldTitle{
+    color:inherit;
+    background-color: #4CAF50;
+   font-size: 120%;
+   text-align: center;
+   font-style: Trebuchet;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align:
+}
+
+li {
+    float: left;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:  #333;
+}
+/* Style the Header Text */
+.Header_Text {
+  position: absolute;
+  top: 0%;
+  left: 55%;
+  color: white;
+  padding-right: 5%;
+  font-size: 100%;
+}
+
+img {max-width: 20%;}
+
+.Logo {
+  position:absolute;
+  top: 5%;
+  left: 15%;
+
+}
+
+
+
+/* Style the Header Image */
+.header {
+    background: url(Coaching.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50% 70%;
+    padding: 3%;
+    float: center;
+    height: 250px;
+    max-height: 50%;
+    max-width: 100%;
+    justify-content: center ;
+    color: white;
+    text-align: left;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    width: 50%;
+    left: 35%;
+
+
+}
+
+/* Style the topnav links */
+.topnav a {
+
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 50px;
+    margin: 0 auto;
+  }
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.active {
+    background-color: black;
+    color: black;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*Style for contact details*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    color: white;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.Forms{
+    border-radius: 5px;
+    padding: 3%;
+}
